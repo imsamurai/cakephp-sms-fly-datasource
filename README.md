@@ -23,27 +23,24 @@ then update submodules:
 	git submodule update
 
 ### Step 3: Add your configuration to `database.php` and set it to the model
-
 ```
 :: database.php ::
+```
+```php
 public $smsFly = array(
   'datasource' => 'SMSFlySource.Http/SMSFlySource',
         'host' => 'sms-fly.com/api/api.php',
         'port' => 80
 );
-
-Then make model
-
-:: Freebase.php ::
-public $useDbConfig = 'myapi';
-public $useTable = '<desired api url ending, for ex: "search">';
-
 ```
+
+Then make use model SMSFly
 
 ### Step 4: Load plugin
-
 ```
 :: bootstrap.php ::
+```
+```php
 CakePlugin::load('HttpSource', array('bootstrap' => true, 'routes' => false));
 CakePlugin::load('SMSFlySource');
 
