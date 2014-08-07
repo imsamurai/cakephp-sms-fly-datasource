@@ -35,7 +35,7 @@ before_script:
     - if [ "$PHPCS" != 1 ]; then
             echo "
                 CakePlugin::load('HttpSource', array('bootstrap' => true, 'routes' => false));
-                CakePlugin::load('SMSFlySource', array('bootstrap' => true, 'routes' => false));
+                CakePlugin::load('SMSFlySource');
             " >> ../cakephp/app/Config/bootstrap.php;
              echo "<?php
           require_once dirname(dirname(__FILE__)) . '/vendor/autoload.php';
