@@ -1,0 +1,33 @@
+{
+  "name": "imsamurai/cakephp-sms-fly-datasource",
+  "description": "CakePHP SMSFlySource Plugin with DataSource",
+  "type": "cakephp-plugin",
+  "keywords": [
+    "cakephp",
+    "database",
+	"datasource",
+    "plugin",
+	"sms"
+  ],
+  "homepage": "https://github.com/imsamurai/cakephp-sms-fly-datasource",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shamray Alexander",
+      "email": "im.samuray@gmail.com",
+      "homepage": "https://imsamurai.me",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "composer/installers": "*",
+	"imsamurai/http-source": "1.1.*"
+  },
+  "support": {
+    "email": "im.samuray@gmail.com",
+    "source": "https://github.com/imsamurai/cakephp-sms-fly-datasource"
+  },
+  "extra": {
+    "installer-name": "SMSFlySource"
+  }
+}
