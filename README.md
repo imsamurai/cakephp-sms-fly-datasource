@@ -10,17 +10,19 @@ CakePHP SMSFlySource Plugin with DataSource for [SMS Fly service](http://sms-fly
 
 ### Step 2: Clone or download to `Plugin/SMSFlySource`
 
-  cd my_cake_app/app git@github.com:imsamurai/cakephp-sms-fly-datasource.git Plugin/SMSFlySource
+  cd my_cake_app/app git://github.com/imsamurai/cakephp-sms-fly-datasource.git Plugin/SMSFlySource
 
 or if you use git add as submodule:
 
 	cd my_cake_app
-	git submodule add "git@github.com:imsamurai/cakephp-sms-fly-datasource.git" "app/Plugin/SMSFlySource"
+	git submodule add "git://github.com/imsamurai/cakephp-sms-fly-datasource.git" "app/Plugin/SMSFlySource"
 
 then update submodules:
 
 	git submodule init
 	git submodule update
+	
+### Step 1-2 alternative: use composer
 
 ### Step 3: Add your configuration to `database.php` and set it to the model
 ```
