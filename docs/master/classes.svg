@@ -20,23 +20,38 @@
 <path fill="none" stroke="gray" d="M322,-218C322,-212 328,-206 334,-206"/>
 <text text-anchor="middle" x="584" y="-482.1" font-family="Times Roman,serif" font-size="11.00" fill="gray">Global</text>
 </g>
+<!-- \\AllSMSFlySourceTest -->
+<g id="node2" class="node"><title>\\AllSMSFlySourceTest</title>
+<polygon fill="none" stroke="black" points="800,-412 656,-412 656,-376 800,-376 800,-412"/>
+<text text-anchor="middle" x="728" y="-391.1" font-family="Courier,monospace" font-size="11.00">AllSMSFlySourceTest</text>
+</g>
+<!-- \\PHPUnit_Framework_TestSuite -->
+<g id="node9" class="node"><title>\\PHPUnit_Framework_TestSuite</title>
+<ellipse fill="none" stroke="black" cx="379" cy="-180" rx="166.877" ry="18.3848"/>
+<text text-anchor="middle" x="379" y="-176.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\PHPUnit_Framework_TestSuite</text>
+</g>
+<!-- \\AllSMSFlySourceTest&#45;&gt;\\PHPUnit_Framework_TestSuite -->
+<g id="edge3" class="edge"><title>\\AllSMSFlySourceTest&#45;&gt;\\PHPUnit_Framework_TestSuite</title>
+<path fill="none" stroke="black" d="M655.42,-386.17C641.894,-382.077 628.678,-375.994 618,-367 556.805,-315.454 609.929,-250.113 546,-202 541.8,-198.839 537.366,-196.013 532.752,-193.491"/>
+<polygon fill="none" stroke="black" points="534.187,-190.297 523.671,-189.008 531.088,-196.574 534.187,-190.297"/>
+</g>
 <!-- \\SMSFlySourceTest -->
-<g id="node2" class="node"><title>\\SMSFlySourceTest</title>
-<polygon fill="none" stroke="black" points="790,-412 666,-412 666,-376 790,-376 790,-412"/>
-<text text-anchor="middle" x="728" y="-391.1" font-family="Courier,monospace" font-size="11.00">SMSFlySourceTest</text>
+<g id="node3" class="node"><title>\\SMSFlySourceTest</title>
+<polygon fill="none" stroke="black" points="790,-358 666,-358 666,-322 790,-322 790,-358"/>
+<text text-anchor="middle" x="728" y="-337.1" font-family="Courier,monospace" font-size="11.00">SMSFlySourceTest</text>
 </g>
 <!-- \\CakeTestCase -->
-<g id="node9" class="node"><title>\\CakeTestCase</title>
-<ellipse fill="none" stroke="black" cx="379" cy="-180" rx="82.0244" ry="18.3848"/>
-<text text-anchor="middle" x="379" y="-176.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\CakeTestCase</text>
+<g id="node11" class="node"><title>\\CakeTestCase</title>
+<ellipse fill="none" stroke="black" cx="379" cy="-126" rx="82.0244" ry="18.3848"/>
+<text text-anchor="middle" x="379" y="-122.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\CakeTestCase</text>
 </g>
 <!-- \\SMSFlySourceTest&#45;&gt;\\CakeTestCase -->
-<g id="edge3" class="edge"><title>\\SMSFlySourceTest&#45;&gt;\\CakeTestCase</title>
-<path fill="none" stroke="black" d="M665.444,-388.848C648.564,-384.898 631.31,-378.211 618,-367 556.805,-315.454 609.929,-250.113 546,-202 523.733,-185.242 494.903,-177.912 467.481,-175.313"/>
-<polygon fill="none" stroke="black" points="467.69,-171.819 457.456,-174.561 467.166,-178.799 467.69,-171.819"/>
+<g id="edge5" class="edge"><title>\\SMSFlySourceTest&#45;&gt;\\CakeTestCase</title>
+<path fill="none" stroke="black" d="M665.239,-334.683C648.452,-330.723 631.298,-324.072 618,-313 558.074,-263.104 607.883,-200.447 546,-153 524.61,-136.6 497.093,-128.488 470.592,-124.83"/>
+<polygon fill="none" stroke="black" points="470.841,-121.336 460.5,-123.638 470.02,-128.287 470.841,-121.336"/>
 </g>
 <!-- \\SMSFlyTestSource -->
-<g id="node3" class="node"><title>\\SMSFlyTestSource</title>
+<g id="node4" class="node"><title>\\SMSFlyTestSource</title>
 <polygon fill="none" stroke="black" points="790,-466 666,-466 666,-430 790,-430 790,-466"/>
 <text text-anchor="middle" x="728" y="-445.1" font-family="Courier,monospace" font-size="11.00">SMSFlyTestSource</text>
 </g>
@@ -46,39 +61,24 @@
 <text text-anchor="middle" x="379" y="-445.1" font-family="Courier,monospace" font-size="11.00">SMSFlySource</text>
 </g>
 <!-- \\SMSFlyTestSource&#45;&gt;\\SMSFlySource -->
-<g id="edge5" class="edge"><title>\\SMSFlyTestSource&#45;&gt;\\SMSFlySource</title>
+<g id="edge7" class="edge"><title>\\SMSFlyTestSource&#45;&gt;\\SMSFlySource</title>
 <path fill="none" stroke="black" d="M665.203,-448C600.789,-448 501.342,-448 438.251,-448"/>
 <polygon fill="none" stroke="black" points="438.065,-444.5 428.065,-448 438.064,-451.5 438.065,-444.5"/>
 </g>
 <!-- \\SMSFlyTestHttpSourceConnection -->
-<g id="node4" class="node"><title>\\SMSFlyTestHttpSourceConnection</title>
-<polygon fill="none" stroke="black" points="837,-358 619,-358 619,-322 837,-322 837,-358"/>
-<text text-anchor="middle" x="728" y="-337.1" font-family="Courier,monospace" font-size="11.00">SMSFlyTestHttpSourceConnection</text>
+<g id="node5" class="node"><title>\\SMSFlyTestHttpSourceConnection</title>
+<polygon fill="none" stroke="black" points="837,-304 619,-304 619,-268 837,-268 837,-304"/>
+<text text-anchor="middle" x="728" y="-283.1" font-family="Courier,monospace" font-size="11.00">SMSFlyTestHttpSourceConnection</text>
 </g>
 <!-- \\HttpSourceConnection -->
-<g id="node12" class="node"><title>\\HttpSourceConnection</title>
-<ellipse fill="none" stroke="black" cx="379" cy="-126" rx="125.158" ry="18.3848"/>
-<text text-anchor="middle" x="379" y="-122.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\HttpSourceConnection</text>
+<g id="node14" class="node"><title>\\HttpSourceConnection</title>
+<ellipse fill="none" stroke="black" cx="379" cy="-72" rx="125.158" ry="18.3848"/>
+<text text-anchor="middle" x="379" y="-68.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\HttpSourceConnection</text>
 </g>
 <!-- \\SMSFlyTestHttpSourceConnection&#45;&gt;\\HttpSourceConnection -->
-<g id="edge7" class="edge"><title>\\SMSFlyTestHttpSourceConnection&#45;&gt;\\HttpSourceConnection</title>
-<path fill="none" stroke="black" d="M631.207,-321.993C626.523,-319.378 622.08,-316.397 618,-313 558.074,-263.104 607.883,-200.447 546,-153 535.122,-144.66 522.66,-138.463 509.552,-133.906"/>
-<polygon fill="none" stroke="black" points="510.497,-130.534 499.908,-130.87 508.395,-137.211 510.497,-130.534"/>
-</g>
-<!-- \\AllSMSFlySourceTest -->
-<g id="node5" class="node"><title>\\AllSMSFlySourceTest</title>
-<polygon fill="none" stroke="black" points="800,-304 656,-304 656,-268 800,-268 800,-304"/>
-<text text-anchor="middle" x="728" y="-283.1" font-family="Courier,monospace" font-size="11.00">AllSMSFlySourceTest</text>
-</g>
-<!-- \\PHPUnit_Framework_TestSuite -->
-<g id="node14" class="node"><title>\\PHPUnit_Framework_TestSuite</title>
-<ellipse fill="none" stroke="black" cx="379" cy="-72" rx="166.877" ry="18.3848"/>
-<text text-anchor="middle" x="379" y="-68.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\PHPUnit_Framework_TestSuite</text>
-</g>
-<!-- \\AllSMSFlySourceTest&#45;&gt;\\PHPUnit_Framework_TestSuite -->
-<g id="edge9" class="edge"><title>\\AllSMSFlySourceTest&#45;&gt;\\PHPUnit_Framework_TestSuite</title>
-<path fill="none" stroke="black" d="M655.5,-278.074C641.968,-273.988 628.729,-267.933 618,-259 558.074,-209.104 607.883,-146.447 546,-99 539.691,-94.1625 532.848,-90.0462 525.656,-86.5526"/>
-<polygon fill="none" stroke="black" points="526.935,-83.2911 516.373,-82.453 524.107,-89.6945 526.935,-83.2911"/>
+<g id="edge9" class="edge"><title>\\SMSFlyTestHttpSourceConnection&#45;&gt;\\HttpSourceConnection</title>
+<path fill="none" stroke="black" d="M631.207,-267.993C626.523,-265.378 622.08,-262.397 618,-259 558.074,-209.104 607.883,-146.447 546,-99 535.122,-90.6597 522.66,-84.463 509.552,-79.9056"/>
+<polygon fill="none" stroke="black" points="510.497,-76.5337 499.908,-76.8696 508.395,-83.2107 510.497,-76.5337"/>
 </g>
 <!-- \\SMSFly -->
 <g id="node6" class="node"><title>\\SMSFly</title>
