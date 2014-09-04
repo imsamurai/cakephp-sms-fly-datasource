@@ -12,6 +12,8 @@ env:
     - REQUIRE="imsamurai/cakephp-environment:dev-master phpdocumentor/phpdocumentor:2.*"
     - DB=mysql
     - CAKE_VERSION=2.4
+    - secure: BoFh4lbp/LCweOvKtpjhaHZTpL7Q4vPsL5NwNUUKk0rlXBS9kORs6X6SCW9kudXp+O41sQiS+krsLHCrW+ldJvDXl/K2bojmzi3QbExITWIN/jqPBIWbuD2pVNNyN2MynMuhoHsJWX6Dd9TfgA/euvq9N6738dmF+zxL6dMI7vE=
+
   matrix:
     - CAKE_VERSION=2.3
     - CAKE_VERSION=2.4
