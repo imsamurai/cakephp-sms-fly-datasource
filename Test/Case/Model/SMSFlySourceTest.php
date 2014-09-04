@@ -12,6 +12,12 @@ App::uses('SMSFlyTestSource', 'SMSFlySource.Model/Datasource/Http');
 App::uses('HttpSourceConnection', 'HttpSource.Model/Datasource');
 App::uses('HttpSocketResponse', 'Network/Http');
 
+/**
+ * SMSFlySourceTest
+ * 
+ * @package SMSFlySourceTest
+ * @subpackage Model
+ */
 class SMSFlySourceTest extends CakeTestCase {
 
 	/**

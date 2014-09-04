@@ -9,6 +9,9 @@
 
 /**
  * SMSFly Model
+ * 
+ * @package SMSFlySource
+ * @subpackage Model
  */
 class SMSFly extends AppModel {
 

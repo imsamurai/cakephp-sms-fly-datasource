@@ -4,12 +4,17 @@
  * SMSFlySource DataSource
  *
  * DataSource for http://sms-fly.com/
- *
  */
 App::uses('HttpSource', 'HttpSource.Model/Datasource');
 App::uses('HtmlHelper', 'View/Helper');
 App::uses('View', 'View');
 
+/**
+ * SMSFlySource
+ * 
+ * @package SMSFlySource
+ * @subpackage Model.Datasource.Http
+ */
 class SMSFlySource extends HttpSource {
 
 	/**

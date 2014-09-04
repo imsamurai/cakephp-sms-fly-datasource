@@ -9,6 +9,9 @@
 
 /**
  * AllSMSFlySourceTest
+ * 
+ * @package SMSFlySourceTest
+ * @subpackage Test
  */
 class AllSMSFlySourceTest extends PHPUnit_Framework_TestSuite {
 
